@@ -1,0 +1,10 @@
+.features__item-icon {
+    padding-bottom: 16px;
+}
+
+@media (max-width: 375px) {
+    .features__item-icon  {
+        padding-bottom: 12px;
+    }
+  }
+  

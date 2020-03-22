@@ -1,0 +1,25 @@
+.hero__content {
+    max-width: 936px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media (max-width: 750px) {
+    .hero__content {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+  }
+
+  @media (max-width: 375px) {
+    .hero__content {
+      margin: 0 44px;
+
+    }
+
+  }
+ 

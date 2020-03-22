@@ -1,0 +1,12 @@
+.page__contacts {
+  max-width: 936px;
+
+  margin: 0 auto;
+  padding: 0 2.5%;
+}
+
+@media (max-width: 375px) {
+  .page__contacts {
+    padding: 0;
+  }
+}

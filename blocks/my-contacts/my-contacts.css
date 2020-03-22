@@ -1,0 +1,30 @@
+@import url("../my-contacts/__heading/my-contacts__heading.css");
+@import url("../my-contacts/__info/my-contacts__info.css");
+@import url("../my-contacts/__socials/my-contacts__socials.css");
+@import url("../my-contacts/__social-links/my-contacts__social-links.css");
+@import url("../my-contacts/__social-link/my-contacts__social-link.css");
+@import url("../my-contacts/__text/my-contacts__text.css");
+@import url("../my-contacts/__confidetials/my-contacts__confidetials.css");
+@import url("../page/__my-contacts/page__my-contacts.css");
+
+.my-contacts {
+  width: 41.35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+@media (max-width: 690px) {
+  .my-contacts {
+    font-size: 14px;
+    width: 55%;
+  }
+}
+
+@media (max-width: 375px) {
+  .my-contacts {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+.social-navigation__link {
+    margin-right: 20px;
+}
+.social-navigation__link:last-child {
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+    .social-navigation__link {
+        margin-right: 15px;
+    }
+  }
+

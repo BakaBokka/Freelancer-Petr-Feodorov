@@ -1,0 +1,14 @@
+@import url("../header/header.css");
+@import url("../hero/__content/hero__content.css");
+@import url("../hero/__maintext/hero__maintext.css");
+@import url("../hero/__title/hero__title.css");
+@import url("../hero/__subtitle/hero__subtitle.css");
+@import url("../hero/__desc/hero__desc.css");
+@import url("../button/button.css");
+@import url("../hero/__avatar-wrap/hero__avatar-wrap.css");
+@import url("../hero/__avatar/hero__avatar.css");
+@import url("../hero/__avatar/_hovered/hero__avatar_hovered.css");
+@import url("../page/__hero/page__hero.css");
+.hero {
+  background-color: #1b2944;
+}

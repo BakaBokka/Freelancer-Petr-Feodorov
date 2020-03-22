@@ -1,0 +1,11 @@
+.form__item_client_phone {
+  margin: 0 auto 31px;
+  background-image: url("../../../../images/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-position: 22px center;
+  background-size: 17px 17px;
+}
+@media (max-width:375px) {
+  .form__item_client_phone{
+  margin-bottom: 36px;}
+}

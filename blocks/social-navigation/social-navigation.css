@@ -1,0 +1,10 @@
+@import url('../social-navigation/__icon/social-navigation__icon.css');
+@import url('../social-navigation/__links/social-navigation__links.css');
+@import url('../social-navigation/__link/social-navigation__link.css');
+
+
+.social-navigation {
+    display: flex;
+    align-items: center;
+}
+

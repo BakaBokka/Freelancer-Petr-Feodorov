@@ -1,0 +1,23 @@
+.hero__avatar-wrap {
+  width: 41.56%;
+  height: 98.48%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+
+  box-sizing: border-box;
+}
+
+@media (max-width: 750px) {
+  .hero__avatar-wrap {
+    order: 1;
+  }
+}
+
+@media (max-width: 375px) {
+  .hero__avatar-wrap {
+    margin-bottom: 19px;
+    width: 113px;
+    height: 113px;
+  }
+}

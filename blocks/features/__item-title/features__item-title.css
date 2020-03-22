@@ -1,0 +1,20 @@
+.features__item-title {
+  font-size: 1.5em;
+  line-height: 28px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+
+@media (max-width: 375px) {
+  .features__item-title {
+    font-size: 1.2857em;
+    padding-bottom: 7px;
+    
+  }
+
+}
+
+
+

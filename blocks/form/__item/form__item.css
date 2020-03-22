@@ -1,0 +1,21 @@
+.form__item {
+  max-width: 100%;
+  width: 100%;
+  min-height: 70px;
+  background: #f8f8f8;
+  box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+  border-radius: 5px;
+  padding: 0;
+  display: block;
+  border-width: 0;
+  font-size: 14px;
+  color: #949494;
+  text-indent: 54px;
+}
+
+@media (max-width: 460px) {
+  .form__item  {
+    max-width: 423px;
+    max-height: 455px;
+  }
+}

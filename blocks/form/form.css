@@ -1,0 +1,15 @@
+@import url("../form/__heading/form__heading.css");
+@import url("../form/__client-info/form__client-info.css");
+@import url("../form/__item/form__item.css");
+@import url("../form/__item/_client/form__item_client_name.css");
+@import url("../form/__item/_client/form__item_client_phone.css");
+@import url('../page/__form/page__form.css');
+
+.form {
+  max-width: 423px;
+  max-height: 455px;
+  background: #ffffff;
+  box-shadow: -5px 5px 0px #ffc41d;
+  border-radius: 5px;
+  box-sizing: border-box;
+}

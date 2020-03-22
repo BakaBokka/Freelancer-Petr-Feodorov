@@ -1,0 +1,7 @@
+@import url("../contacts/__title/contacts__title.css");
+@import url("../contacts/__content/contacts__content.css");
+@import url('../page/__contacts/page__contacts.css');
+
+.contacts {
+  background-color: #1b2944;
+}

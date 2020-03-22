@@ -1,0 +1,15 @@
+.social-navigation__icon_place_contacts {
+  width: 19px;
+  height: 19px;
+  transition-duration: 0.5s;
+
+  margin: 22px 3px 35px;
+}
+
+
+@media (max-width: 375px) {
+  .social-navigation__icon_place_contacts {
+    margin-bottom: 30px;
+  }
+
+}

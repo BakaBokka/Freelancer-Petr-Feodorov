@@ -1,0 +1,27 @@
+.features__items {
+    max-width: 936px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(277px, 1fr));
+    grid-column-gap: 52px;
+    grid-row-gap: 70px;
+    padding-bottom: 92px;
+
+}
+
+@media (max-width: 680px) {
+    .features__items {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-column-gap: 50px;
+        grid-row-gap: 40px;
+    }
+
+  }
+
+  @media (max-width: 375px) {
+    .features__items {
+        padding-bottom: 60px;
+        grid-row-gap: 35px;
+
+  }
+  }

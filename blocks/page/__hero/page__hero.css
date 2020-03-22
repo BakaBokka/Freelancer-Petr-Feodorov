@@ -1,0 +1,11 @@
+.page__hero {
+  padding-bottom: 66px;
+  margin: 0 2.5%;
+}
+
+@media (max-width: 375px) {
+  .page__hero {
+    padding: 0;
+    margin: 0 0 42px;
+  }
+}

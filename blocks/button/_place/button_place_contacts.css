@@ -1,0 +1,15 @@
+.button_place_contacts {
+  margin: 0 auto;
+  max-width: 100%;
+  width: 100%;
+  min-height: 73px;
+  display: block;
+}
+
+@media (max-width: 375px) {
+  .button_place_contacts {
+    min-height: 53px;
+    font-size: 10px;
+    
+  }
+}

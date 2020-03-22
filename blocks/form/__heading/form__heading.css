@@ -1,0 +1,17 @@
+.form__heading {
+    max-width: 317px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 0 39px;
+}
+
+@media (max-width: 375px) {
+  .form__heading {
+    font-size: 15px;
+    line-height: 140%;
+    padding-bottom: 27px;
+  }
+}

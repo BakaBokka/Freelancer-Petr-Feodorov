@@ -1,0 +1,17 @@
+.my-contacts__confidetials {
+  margin: 0;
+  font-size: 0.9375em;
+  line-height: 18px;
+transition-duration: .5s;
+  color: #949494;
+}
+
+.my-contacts__confidetials:hover {
+  opacity: .6;
+}
+
+@media (max-width: 375px) {
+  .my-contacts__confidetials {
+    font-size: 1.0714em;
+  }
+}

@@ -1,0 +1,15 @@
+@import url('../../social-navigation/__icon/_place/social-navigation__icon_place_contacts.css');
+.my-contacts__socials {
+    margin-right: 10px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 375px) {
+    .my-contacts__socials {
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+
+    }
+
+  }

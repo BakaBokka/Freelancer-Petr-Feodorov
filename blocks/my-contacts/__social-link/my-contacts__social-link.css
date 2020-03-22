@@ -1,0 +1,13 @@
+.my-contacts__social-link {
+     margin-right: 41px;
+    transition-duration: .5s;
+}
+
+ .my-contacts__social-link:last-child {
+    margin: 0;
+} 
+
+.my-contacts__social-link:hover {
+   opacity: .6;
+}
+

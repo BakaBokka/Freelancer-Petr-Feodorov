@@ -1,0 +1,29 @@
+@import url('../../form/form.css');
+@import url('../../button/_place/button_place_contacts.css');
+@import url('../../my-contacts/my-contacts.css');
+
+
+.contacts__content {
+    display: flex;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+
+@media (max-width: 700px) {
+    .contacts__content {
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+  }
+
+  @media (max-width: 460px) {
+    .contacts__content {
+      margin: 0 33px 0 30px;
+      align-items: flex-start;
+      padding-bottom: 0;
+
+    }
+
+  }

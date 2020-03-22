@@ -1,0 +1,14 @@
+.features__container {
+
+ max-width: 936px;
+  margin: 0 auto;
+  padding: 0 2.5%;
+}
+
+@media (max-width: 375px) {
+  .features__container {
+    padding: 0 30px;
+    
+  }
+
+}

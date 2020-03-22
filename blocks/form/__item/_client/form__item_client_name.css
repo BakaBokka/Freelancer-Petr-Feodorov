@@ -1,0 +1,12 @@
+.form__item_client_name {
+    margin: 0 auto 18px;
+    background-image: url("../../../../images/user-icon.svg");
+    background-repeat: no-repeat;
+    background-position: 22px center;
+    background-size: 17px 20px;
+}
+
+@media (max-width:375px) {
+    .form__item_client_name{
+    margin-bottom: 17px;}
+}

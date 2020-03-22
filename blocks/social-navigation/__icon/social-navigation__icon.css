@@ -1,0 +1,17 @@
+.social-navigation__icon {
+    width: 17px;
+    height: 17px;
+    transition-duration: .5s;
+}
+
+.social-navigation__icon:hover {
+    opacity: 0.6;
+    
+}
+
+@media (max-width: 375px) {
+    .social-navigation__icon {
+        width: 13px;
+        
+    }
+  }

@@ -1,0 +1,17 @@
+@import url('../__item/my-contacts__item.css');
+.my-contacts__info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 10px;
+}
+
+@media (max-width: 375px) {
+    .my-contacts__info {
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+
+    }
+
+  }
